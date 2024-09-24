@@ -1,0 +1,42 @@
+.lista{
+    width: 50vh;
+    height: auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    background-color: #303030 ;
+    padding: 1rem;
+    font-weight: bolder;
+    margin-top:  50px;
+}
+
+.lista ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.lista li{
+    height: 2rem;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255 , 255, .1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.x_shape {
+    display: inline-block;
+    font-size: 24px; 
+    font-weight: bold; 
+    color: red; 
+    width: 20px;
+    height: 20px;
+    text-align: center; 
+    line-height: 20px; 
+    cursor: pointer;
+}
